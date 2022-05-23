@@ -1,8 +1,8 @@
 # Seg-Correct
 
-This tool is designed to help the [Gallic(orpor)a](https://github.com/Gallicorpora) project's contributors better detect segmentation issues with HTR documents pushed to the project's repositories.
+This tool is designed to help the [Gallic(orpor)a](https://github.com/Gallicorpora) project's contributors better detect segmentation issues with HTR documents pushed to the project's repositories. A log of these issues is automatically generated using [HTR United's](https://htr-united.github.io/) HTRVX tool, which Gallic(orpor)a implements through GitHub Actions.
 
-HTR-United workflows for each repository:
+HTR-United workflows for each Gallic(orpor)a repository:
 - Manuscrits - [15e Siècle](https://github.com/Gallicorpora/HTR-MSS-15e-Siecle/actions/workflows/htr-united.yml)
 - Incunables - [15e Siècle](https://github.com/Gallicorpora/HTR-incunable-15e-siecle/actions/workflows/htr-united.yml)
 - Imprimés - [16e Siècle](https://github.com/Gallicorpora/HTR-imprime-16e-siecle/actions/workflows/htr-united.yml)
