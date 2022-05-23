@@ -16,7 +16,7 @@ HTR-United workflows for each Gallic(orpor)a repository:
 
 
 ### Commandes d'installation en terminal (bash):
-_Note : D'habitude, les commandes de terminal sont précédés par un `$`. Ignorez-le en copiant ces commandes._
+_Note : D'habitude, les commandes de terminal sont précédées par un `$`. Ignorez-le en copiant ces commandes._
 1. Dans un terminal, déplacez-vous où vous voulez télécharger ce paquet.
 2. Téléchargez ce paquet de GitHub : `$ git clone https://github.com/kat-kel/seg-correct.git`
 3. Déplacez-vous dans le paquet téléchargé : `$ cd seg-correct`
@@ -30,7 +30,7 @@ Gardez activé l'environnement virtuel de `seg-correct`, dans lequel est install
 
 0. Si besoin, réactivez l'environnement virtuel `seg-venv` depuis où il est installé, `seg-correct/`.
 1. Lancer l'application : `$ seg-correct`
-2. Répondez à ces questions.
+2. Répondez à ses questions.
 3. Dis-lui où sur votre machine locale vous avez téléchargé le log du workflow HTR-United.
 4. Dis-lui où sur votre machine locale sont stockées les données XML du répo dont le log parle.
 
