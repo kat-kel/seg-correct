@@ -25,6 +25,7 @@ _Note : D'habitude, les commandes de terminal sont précédés par un `$`. Ignor
 6. Depuis le répertoire `seg-correct/` et avec l'environnement virtuel activé, installez l'outil : `$ pip install .`
 
 ### Commandes d'utilisation en terminal (bash)
+![demo](https://github.com/kat-kel/seg-correct/blob/main/demo.gif)
 Gardez activé l'environnement virtuel de `seg-correct`, dans lequel est installé l'outil. Dans le terminal, vous pouvez se déplacer peu importe où vous voulez. Un bon endroit serait soit où vous avez en local les données XML du répo du projet soit où vous avez téléchargé le log du workflow HTR-United de ce répo.
 
 0. Si besoin, réactivez l'environnement virtuel `seg-venv` depuis où il est installé, `seg-correct/`.
