@@ -20,12 +20,14 @@ _Note : D'habitude, les commandes de terminal sont précédés par un `$`. Ignor
 1. Dans un terminal, déplacez-vous où vous voulez télécharger ce paquet.
 2. Téléchargez ce paquet de GitHub : `$ git clone https://github.com/kat-kel/seg-correct.git`
 3. Déplacez-vous dans le paquet téléchargé : `$ cd seg-correct`
-4. Créez un environnement virtuel dans lequel vous allez installer le paquet : `$ python3 -m venv venv`
-5. Activez cet environment : `$ source venv/bin/activate`
+4. Créez un environnement virtuel dans lequel vous allez installer le paquet : `$ python3 -m venv seg-venv`
+5. Activez cet environment : `$ source seg-venv/bin/activate`
 6. Depuis le répertoire `seg-correct/` et avec l'environnement virtuel activé, installez l'outil : `$ pip install .`
 
 ### Commandes d'utilisation en terminal (bash)
 Gardez activé l'environnement virtuel de `seg-correct`, dans lequel est installé l'outil. Dans le terminal, vous pouvez se déplacer peu importe où vous voulez. Un bon endroit serait soit où vous avez en local les données XML du répo du projet soit où vous avez téléchargé le log du workflow HTR-United de ce répo.
+
+0. Si besoin, réactivez l'environnement virtuel `seg-venv` depuis où il est installé, `seg-correct/`.
 1. Lancer l'application : `$ seg-correct`
 2. Répondez à ces questions.
 3. Dis-lui où sur votre machine locale vous avez téléchargé le log du workflow HTR-United.
